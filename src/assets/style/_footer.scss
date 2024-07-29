@@ -1,0 +1,20 @@
+.header {
+    &__nav {
+        li .header__ul-cards {
+            display: none;
+        }
+        li:hover .header__ul-cards {
+            display: flex;
+        }
+        li:hover a > img {
+            @apply rotate-0	
+        }
+    }
+    &__ul-cards {
+        border-radius: 2px;
+        li {
+            font-size: 13px;
+            color: rgb(39, 25, 25);
+        }
+    } 
+}

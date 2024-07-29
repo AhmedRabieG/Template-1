@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-HelveticaNeue font-normal
+    }
+    h1, h2, h4 {
+        @apply font-Aeonik font-medium 
+    }
+    h4 {
+        @apply text-[20px] text-[#2E2E38]
+    }
+    h3 {
+        @apply font-Ramabhadra text-[18px]
+    }
+    
+    
+} 
+
+@layer components { 
+
+}
+
+@layer utilities { 
+
+}
+/////////  button style
+.button {
+    @apply inline-flex font-medium font-Aeonik text-[#222] text-[16px] bg-transparent
+    rounded-[32px] gap-[10px] justify-center items-center text-center transition-all
+    duration-300 ease-in-out cursor-pointer select-none no-underline;
+
+    &__primary {
+        @apply px-[20px] py-[8px];
+
+    }
+    &__black {
+        @apply bg-[#000] text-[#fff];
+
+        svg {
+            path {
+                @apply stroke-white
+            }
+        }
+        &:hover {
+            @apply bg-[#222222] 
+        }
+    }
+
+    &__hero {
+        @apply text-[20px] text-[#fff] py-[17px] px-[48px] border-[1px]
+        border-white border-solid;
+
+        &:hover {
+            @apply bg-[#fff] text-[#000]
+        }
+    }
+
+    svg, img {
+        @apply w-auto h-[16px];
+
+        path {
+            @apply transition-all duration-300 ease-in-out
+        }
+       
+    }
+    
+}
+/////////  links style 
+a {
+    @apply inline-flex items-center gap-1 text-[#222] font-medium no-underline
+}
+.toolbox-link {
+    @apply  text-[15px] font-Inter font-semibold py-[11px] px-[21px] !rounded-[12px] border-[#C5C5D0] border-[1px] border-solid inline-block;
+}
+
