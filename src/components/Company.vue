@@ -11,7 +11,7 @@
                     <p class="font-normal w-1/2	">Create intuitive automations and authentic chatbots to deliver outstanding customer experiences via chat.</p>
                     <a class="py-[11px] px-[25px] font-medium text-[15px] rounded-[12px] 
                         font-Aeonik border-[1px] border-solid border-[#C5C5D0]" href="#">
-                        More success stories
+                        More success stories stories stories
                     </a>
                 </div>
                 
