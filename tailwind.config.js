@@ -11,9 +11,9 @@ export default {
       },
       fontFamily: {
         Aeonik: "Aeonik",
-        HelveticaNeue: "HelveticaNeue, sans-serif",
-        Ramabhadra: "Ramabhadra, sans-serif",
-        Inter: "Inter, sans-serif",
+        HelveticaNeue: "HelveticaNeue",
+        Ramabhadra: "Ramabhadra",
+        Inter: "Inter",
       },
       fontSize: {
         sm: [".875rem", { lineHeight: "1.25", fontWeight: "400" }],

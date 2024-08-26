@@ -7,7 +7,7 @@
             display: flex;
         }
         li:hover a > img {
-            @apply rotate-0	
+            @apply -rotate-180 ;
         }
     }
     &__ul-cards {

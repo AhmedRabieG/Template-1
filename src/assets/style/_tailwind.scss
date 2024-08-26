@@ -6,6 +6,9 @@
     body {
         @apply font-HelveticaNeue font-normal
     }
+    h1 {
+        @apply leading-[1.25] -tracking-[1.28px]
+    }
     h1, h2, h4 {
         @apply font-Aeonik font-medium 
     }
@@ -49,9 +52,19 @@
         }
     }
 
-    &__hero {
-        @apply text-[20px] text-[#fff] py-[17px] px-[48px] border-[1px]
+    &__secondary {
+        @apply text-[20px]  py-[17px] px-[48px] border-[1px]
         border-white border-solid;
+    }
+    &__one {
+        @apply text-[#000] bg-[#fff];
+
+        &:hover {
+            @apply bg-transparent text-[#fff]
+        }
+    }
+    &__two {
+        @apply text-[#fff];
 
         &:hover {
             @apply bg-[#fff] text-[#000]

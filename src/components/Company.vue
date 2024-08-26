@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="company mb-2.5 pt-[80px]">
+    <div class="company pb-[40px] pt-[80px]">
         <div class="container">
             <div class="font-medium mb-[46px] ">
                 <h2 class="text-[42px] mb-[26px] w-full">You are in good company</h2>
@@ -26,7 +26,7 @@
                         WhatsApp is the most natural solution here.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="https://placehold.it/300x1000" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full " src="https://placehold.it/300x1000" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Adrian Knoch</h4>
                             <p class="text-[11px] text-[#90909B]">easyApotheke Duderstadt</p>
@@ -41,7 +41,7 @@
                         each phase. That makes our work clear.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-2.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-2.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Andreas Niemiec</h4>
                             <p class="text-[11px] text-[#90909B]">Niemiec Versicherungsmakler GmbH & Co. KG</p>
@@ -57,7 +57,7 @@
                         the right person, labeled and processed.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-3.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-3.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Christian Schuder</h4>
                             <p class="text-[11px] text-[#90909B]">Porsche Zentrum Bade-Baden</p>
@@ -72,7 +72,7 @@
                         messaging platform.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-4.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-4.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Raphael Dirnberger</h4>
                             <p class="text-[11px] text-[#90909B]">Edeka Dirnberger</p>
@@ -87,7 +87,7 @@
                         newsletter.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-5.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-5.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Alexander Damm</h4>
                             <p class="text-[11px] text-[#90909B]">c1 Kosmetik</p>
@@ -102,7 +102,7 @@
                         the HR department.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-6.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-6.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Christina Resch</h4>
                             <p class="text-[11px] text-[#90909B]">Widmann + Winterholler</p>
@@ -115,7 +115,7 @@
                         “With Superchat, we are accessible on exactly the
                         channels that our target group uses.”
                     </p>
-                    <div class="flex gap-[12px]">
+                    <div class="flex gap-[12px] w-[32px] h-[32px] object-cover rounded-full">
                         <img class="self-start" src="../assets/images/company-emp-7.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Üwen Ergün</h4>
@@ -132,7 +132,7 @@
                         and messengers! Thank you very much!”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-8.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-8.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Omar Badawy</h4>
                             <p class="text-[11px] text-[#90909B]">CODE University</p>
@@ -147,7 +147,7 @@
                         insurer with a new and powerful channel.”
                     </p>
                     <div class="flex gap-[12px]">
-                        <img class="self-start" src="../assets/images/company-emp-9.svg" alt="">
+                        <img class="self-start w-[32px] h-[32px] object-cover rounded-full" src="../assets/images/company-emp-9.svg" alt="">
                         <div class="">
                             <h4 class="text-[13px] font-medium mb-[2px]">Thomas Völker</h4>
                             <p class="text-[11px] text-[#90909B]">Allianz Generalvertretung Völker Finance</p>
@@ -170,9 +170,9 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 15%;
-        background-color: transparent;
-        backdrop-filter: blur(1px);
+        height: 30%;
+        background: linear-gradient(180deg, rgba(247, 248, 250, 0) 1.66%, #F7F8FA 92.5%);
     }
 }
 </style>
+

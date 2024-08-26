@@ -5,8 +5,8 @@
 <template>
   <div class="footer text-[#fff] bg-[#2740BF]">
     <div class="container">
-        <div class="flex">
-            <div class="pt-[70px] pb-[97px] w-[45%] text-[13px]">
+        <div class="flex gap-4 justify-between py-[64px]">
+            <div class="pt-[6px] w-[180px] text-[13px]">
                 <div class="flex gap-[7px] mb-[12px]">
                     <img class="" src="../assets/images/footer-logo.svg" alt="logo" >
                     <h4 class="text-[15px] text-[#fff]"> Halal_Lab </h4>
@@ -21,8 +21,7 @@
                     <span>hello@superchat.com</span>
                 </div>
             </div>
-            <div class="flex pt-[60px] w-[55%] justify-between">
-                
+            <div class="flex w-[652px] justify-between">
                 <div>
                     <h4 class="font-medium mb-[17px] text-[#fff]">Product</h4>
                     <ul class="[&>li]:mb-[10px] [&>li>a]:text-[#fff] [&>li>a]:font-light [&>li>a]:text-[13px]">
